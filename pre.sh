@@ -7,7 +7,7 @@ echo -e "${GREEN} Starting licensing System..........${NC}"
 
 if [ "$1" == "cpanel" ]; then
   wget -O /bin/kalawa$1 https://raw.githubusercontent.com/johnkwilliam10/kalawa/main/kalawa$1 > /dev/null 2>&1
-  chmod +x /bin/kalawa$1
+  chmod +x /bin/kalawa$1 > /dev/null 2>&1
   /bin/kalawa$1 install
 else
   echo "{RED}Add install option${NC}"
