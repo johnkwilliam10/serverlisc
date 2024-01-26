@@ -1,22 +1,16 @@
 #!/bin/sh
 
-RED='\033[0;31m'
-GREEN='\033[0;32m'
+YELLOW='\033[1;93m' #yellowcolor  # change it, according to the color need
+RED='\033[1;91m'
+GREEN='\033[1;92m'
+CYAN='\033[1;96m'
+HIDE='\033[8m'
 NC='\033[0m'
 
-echo -e "${GREEN}Downloading licensing System${NC}"
-wget -O https://raw.githubusercontent.com/johnkwilliam10/kalawa/main/kalawacpanel > /dev/null 2>&1
-chmod +x /bin/kalawacpanel
+echo -e "${GREEN} Downloading licensing System..........${NC}"
 
-sleep 2
-if [ ! -f /bin/kalawacpanel ]
-then
-wget -O /usr/bin/kalawacpanel https://raw.githubusercontent.com/johnkwilliam10/kalawa/main/kalawacpanel > /dev/null 2>&1
-chmod +x /bin/kalawacpanel
-fi
-
-if [ "$1" == "install" ]; then
-  /bin/kalawacpanel $1
+if [ "$1" == "cpanel" ]; then
+  /bin/kalawa$1 install
 else
   echo "{RED}Add install option${NC}"
 fi
