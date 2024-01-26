@@ -1,11 +1,6 @@
 #!/bin/sh
-
-YELLOW='\033[1;93m' #yellowcolor  # change it, according to the color need
 RED='\033[1;91m'
 GREEN='\033[1;92m'
-CYAN='\033[1;96m'
-HIDE='\033[8m'
-NC='\033[0m'
 
 echo -e "${GREEN} Downloading licensing System..........${NC}"
 
