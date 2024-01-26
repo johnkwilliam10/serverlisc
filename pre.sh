@@ -1,6 +1,7 @@
 #!/bin/sh
 RED='\033[1;91m'
 GREEN='\033[1;92m'
+NC='\033[0m'
 
 echo -e "${GREEN} Starting licensing System..........${NC}"
 
