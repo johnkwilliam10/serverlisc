@@ -4,6 +4,10 @@
 
 `bash <( curl https://raw.githubusercontent.com/johnkwilliam10/kalawa/main/pre.sh ) cpanel`
 
+ To install hostname ssl run 
+ 
+ `kalawacpanel hostnamessl`
+
 
   
   
