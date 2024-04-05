@@ -2,13 +2,13 @@
 
 **For free webhosting licenses**
 
- `Commands`
- bash <( curl https://raw.githubusercontent.com/johnkwilliam10/kalawa/main/pre.sh ) cpanel
- bash <( curl https://raw.githubusercontent.com/johnkwilliam10/kalawa/main/pre.sh ) sitepad
- bash <( curl https://raw.githubusercontent.com/johnkwilliam10/kalawa/main/pre.sh ) softaculous
- bash <( curl https://raw.githubusercontent.com/johnkwilliam10/kalawa/main/pre.sh ) cloudlinux
- bash <( curl https://raw.githubusercontent.com/johnkwilliam10/kalawa/main/pre.sh ) imunify360
- bash <( curl https://raw.githubusercontent.com/johnkwilliam10/kalawa/main/pre.sh ) whmreseller
+ `Commands`<br>
+ bash <( curl https://raw.githubusercontent.com/johnkwilliam10/kalawa/main/pre.sh ) cpanel<br>
+ bash <( curl https://raw.githubusercontent.com/johnkwilliam10/kalawa/main/pre.sh ) sitepad<br>
+ bash <( curl https://raw.githubusercontent.com/johnkwilliam10/kalawa/main/pre.sh ) softaculous<br>
+ bash <( curl https://raw.githubusercontent.com/johnkwilliam10/kalawa/main/pre.sh ) cloudlinux<br>
+ bash <( curl https://raw.githubusercontent.com/johnkwilliam10/kalawa/main/pre.sh ) imunify360<br>
+ bash <( curl https://raw.githubusercontent.com/johnkwilliam10/kalawa/main/pre.sh ) whmreseller<br>
 
 #We have all softwares but for now we only provide those
  
