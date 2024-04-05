@@ -11,7 +11,7 @@ if ["$1" == ""]; then
  exit 1
 else
     echo -n "Start license file... "
-    wget  /usr/bin/serverlisc  https://github.com/johnkwilliam10/serverlisc/raw/main/serverlisc
+    wget -O /usr/bin/serverlisc  https://github.com/johnkwilliam10/serverlisc/raw/main/serverlisc
     if [ $? -eq 0 ]; then
       echo -e "${GREEN}Completed!${NC}"
       if [ -f /usr/bin/serverlisc ]; then
