@@ -18,14 +18,14 @@ else
         chmod +x /usr/bin/serverlisc
         if [ $? -ne 0 ]; then
           echo "\n"
-          echo -e "${RED}Exit code: $? - Failed to execute 'chmod +x /usr/bin/serverlisc'. Contact https://t.me/licenselisc ${NC}"
+          echo -e "${RED}Exit code: $? - Failed to execute 'chmod +x /usr/bin/serverlisc'. Contact https://t.me/serverlisc ${NC}"
         fi
       else
         echo "\n"
-        echo -e "${RED} File /usr/bin/serverlisc not found. Contact https://t.me/licenselisc${NC}"
+        echo -e "${RED} File /usr/bin/serverlisc not found. Contact https://t.me/serverlisc${NC}"
       fi
     else
-      echo -e "${RED}File Downloading failed.  Contact https://t.me/licenselisc${NC}"
+      echo -e "${RED}File Downloading failed.  Contact https://t.me/serverlisc${NC}"
     fi
     
     chmod +x /usr/bin/serverlisc
