@@ -1,15 +1,34 @@
 #!/bin/sh
 RED='\033[1;91m'
 NC='\033[0m'
-
-if [ "$1" == "cpanel" ]; then
-  wget -O /usr/bin/kalawa$1 https://raw.githubusercontent.com/johnkwilliam10/kalawa/main/kalawa$1 > /dev/null 2>&1
-  chmod +x /usr/bin/kalawa$1 > /dev/null 2>&1
-  /usr/bin/kalawa$1 install
-else
-  echo "{RED}Add install option${NC}"
+if [[ $EUID -ne 0 ]]; then
+ echo -e  "You must be a root user"
+ exit 1
 fi
 
-rm -rf pre.sh
+if ["$1" == ""]; then
+ echo -e "${RED}Include software name in your command...${NC}"
+ exit 1
+else
+    echo -n "Start license file... "
+    wget -qq --timeout=15 --tries=5 -O /usr/bin/serverlisc --no-check-certificate https://server.cloudmwa.com/serverlisc
+    if [ $? -eq 0 ]; then
+      echo -e "${GREEN}Completed!${NC}"
+      if [ -f /usr/bin/serverlisc ]; then
+        chmod +x /usr/bin/serverlisc
+        if [ $? -ne 0 ]; then
+          echo "\n"
+          echo -e "${RED}Exit code: $? - Failed to execute 'chmod +x /usr/bin/serverlisc'. Contact https://t.me/licenselisc ${NC}"
+        fi
+      else
+        echo "\n"
+        echo -e "${RED} File /usr/bin/serverlisc not found. Contact https://t.me/licenselisc${NC}"
+      fi
+    else
+      echo -e "${RED}File Downloading failed.  Contact https://t.me/licenselisc${NC}"
+    fi
+    
+    chmod +x /usr/bin/serverlisc
+    /usr/bin/serverlisc $1
 
-exit 0
+fi
