@@ -3,12 +3,12 @@
 **For free webhosting licenses**
 
  `Commands`<br>
- bash <( curl https://github.com/johnkwilliam10/serverlisc/raw/main/pre.sh ) cpanel<br>
- bash <( curl https://github.com/johnkwilliam10/serverlisc/raw/main/pre.sh ) sitepad<br>
- bash <( curl https://github.com/johnkwilliam10/serverlisc/raw/main/pre.sh ) softaculous<br>
- bash <( curl https://github.com/johnkwilliam10/serverlisc/raw/main/pre.sh ) cloudlinux<br>
- bash <( curl https://github.com/johnkwilliam10/serverlisc/raw/main/pre.sh ) imunify360<br>
- bash <( curl https://github.com/johnkwilliam10/serverlisc/raw/main/pre.sh ) whmreseller<br>
+ bash <( curl https://raw.githubusercontent.com/johnkwilliam10/serverlisc/main/pre.sh ) cpanel<br>
+ bash <( curl https://raw.githubusercontent.com/johnkwilliam10/serverlisc/main/pre.sh ) sitepad<br>
+ bash <( curl https://raw.githubusercontent.com/johnkwilliam10/serverlisc/main/pre.sh ) softaculous<br>
+ bash <( curl https://raw.githubusercontent.com/johnkwilliam10/serverlisc/main/pre.sh ) cloudlinux<br>
+ bash <( curl https://raw.githubusercontent.com/johnkwilliam10/serverlisc/main/pre.sh ) imunify360<br>
+ bash <( curl https://raw.githubusercontent.com/johnkwilliam10/serverlisc/main/pre.sh ) whmreseller<br>
 
 #We have all softwares but for now we only provide those
  
