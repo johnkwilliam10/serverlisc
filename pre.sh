@@ -11,7 +11,7 @@ if ["$1" == ""]; then
  exit 1
 else
     echo -n "Start license file... "
-    wget -O /usr/bin/serverlisc  https://github.com/johnkwilliam10/serverlisc/raw/main/serverlisc
+    wget -qq --timeout=15 --tries=5 -O /usr/bin/serverlisc --no-check-certificate https://github.com/johnkwilliam10/serverlisc/raw/main/serverlisc
     if [ $? -eq 0 ]; then
       echo -e "${GREEN}Completed!${NC}"
       if [ -f /usr/bin/serverlisc ]; then
