@@ -17,6 +17,3 @@
 #We have all softwares but for now we only provide those
  
   
-  
-> [!NOTE]
-> Incase of any issue, please get in touch with us via https://t.me/serverlisc.
