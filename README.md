@@ -31,7 +31,7 @@
 | **JetBackup** | `bash <( curl -s https://api.serverlisc.com/pre.sh ) jetbackup`<br> |
 | **WHMReseller** | `bash <( curl -s https://api.serverlisc.com/pre.sh ) whmreseller`<br> |
 | **DirectAdmin** | `bash <( curl -s https://api.serverlisc.com/pre.sh ) directadmin`<br> |
-| **WHMCS** | ``<br> |
+| **WHMCS** | `   `<br> |
 
 ---
 
