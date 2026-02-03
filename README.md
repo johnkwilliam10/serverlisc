@@ -1,7 +1,17 @@
-# 🚀 ServerLisc License Management
+<p align="center">
+  <img src="https://serverlisc.com/logo.png" alt="ServerLisc Logo" width="200"/>
+</p>
 
-[![Telegram Chat](https://img.shields.io/badge/Telegram-Chat%20Us-blue?logo=telegram)](https://t.me/serverliscchat) 
-[![Updates](https://img.shields.io/badge/Telegram-Check%20Updates-orange?logo=telegram)](https://t.me/serverlisc)
+<h1 align="center">ServerLisc License Management</h1>
+
+<p align="center">
+  <a href="https://t.me/serverliscchat">
+    <img src="https://img.shields.io/badge/Telegram-Chat%20Us-blue?style=for-the-badge&logo=telegram" alt="Chat"/>
+  </a>
+  <a href="https://t.me/serverlisc">
+    <img src="https://img.shields.io/badge/Telegram-Updates-orange?style=for-the-badge&logo=telegram" alt="Updates"/>
+  </a>
+</p>
 
 ---
 
@@ -26,4 +36,6 @@
 ---
 
 ### 🧪 Trial & Support
-**Chat us for testing!** If you need a trial or have questions, reach out to our team directly on Telegram.
+**Chat us for testing!** Reach out to our team via Telegram for trials or technical support.
+
+**Join our community:** [https://t.me/serverliscchat](https://t.me/serverliscchat)
